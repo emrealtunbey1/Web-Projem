@@ -177,3 +177,23 @@
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
+#ileri {
+    width: 200px;
+    height: 200px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+    #ileri:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+    #divorta {
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    background-color: skyblue;
+    position: relative;
+    margin: auto;
+}
